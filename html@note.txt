@@ -1,0 +1,11 @@
+#####////shortcuts in vs code for html////#####
+
+@ h1#book======to id in the h1 tag
+@ h1.book====== to make class 
+@ p>img===== to make image tag in paragraph and also make multiple          tags 
+@ p{this is par graph}=====<p> this is paraghraph</p>/// this works on all tags
+@ article+section=====<article></article>     <section></section>
+@ a{click here} ====<a herf=""> click here </a>
+@ div== to create divission(it is also not sematic tag)  
+@ inline(span tag take width only text when provide bgcolor) and block(use       in( div,para,etc ) to whole block when provide bgcolor)
+@ 

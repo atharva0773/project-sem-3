@@ -1,0 +1,103 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: rgb(80, 128, 177);
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 80px;
+        margin: 100px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 20px;
+        border-radius: 50%;
+      }
+      </style>
+    
+</head>
+<body>
+    <div class="flex-container" style="background-color: rgb(146, 183, 215);" >
+       
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Apply flexbox to the <ul> element */
+    ul {
+      list-style: none;
+      padding: 70;
+      display: flex;
+      justify-content: space-between; /* Adjust this property based on your layout needs */
+    }
+
+    /* Style for list items */
+    li {
+      position: relative; /* Required for positioning absolute content */
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    /* Style for content outside each box */
+    .outside-content {
+      position: absolute;
+      top: 100%; /* Position below the box */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Adjust for centering */
+      background-color: #f0f0f0;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- The flexbox container is the unordered list -->
+  <ul>
+    <!-- List items become flex items with content -->
+    <li>
+      <h2> 1</h2>
+      <span>Content for Box 1 goes here.</span>
+      <div class="outside-content">
+        <p>Outside content for Box 1.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Box 2</h2>
+      <p>Content for Box 2 goes here.</p>
+      <!-- Content outside Box 2 -->
+      <div class="outside-content">
+        <p>Outside content for Box 2.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Box 3</h2>
+      <p>Content for Box 3 goes here.</p>
+      <!-- Content outside Box 3 -->
+      <div class="outside-content">
+        <p>Outside content for Box 3.</p>
+      </div>
+    </li>
+    <!-- Add more list items as needed -->
+  </ul>
+
+</body>
+</html>

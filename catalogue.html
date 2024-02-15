@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <style>
+        button{
+            background-color: yellow;
+            height: 30px;
+            width: 150px;
+            border-radius: 50%;
+            color: darkgoldenrod;
+            font-weight: bolder;
+        }
+        body{
+            margin: 3%;
+            
+        }
+        table{
+            width: 100%;
+            height: 100%;
+            background-color:beige;
+        }
+        
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center; 
+            justify-content: center;
+            padding: 2%;
+            font-size: 20px;
+           
+        }
+        img{
+            height: 150px;
+            width: 150px;
+        }
+        p {color: white}
+ .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .img {
+  opacity: 0.5;
+}
+</style>
+
+</head>
+<body>
+    <table id="table">
+        <tr>
+            <th style="width: 25%;">Books</th>
+            <th style="width: 25%;"> Details</th>
+            <th style="width: 25%;">Price</th>
+            <th style="width: 25%;">Add item</th>
+        </tr>
+        <tr>
+            <td><img src="image/images.jpeg" alt="photo"></td>
+
+            <td >Name: Archiecture<br>
+                Author:Williamson <br>
+                Publisher:Delta Publishers
+            </td>
+            <td>Price:$50</td>
+            <td ><button>Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td><img src="image/images (1).jpeg" alt="photo"></td>
+
+            <td>Name:Graphic Desigining<br>
+                Author:George Dennis <br>
+                Publisher:Anine Publishers
+            </td>
+            <td >Price:$70</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+        <tr >
+            <td><img src="image/images (2).jpeg" alt="photo"></td>
+
+            <td>Name: Cprogramming<br>
+                Author:Robert Ritche <br>
+                Publisher:Oxford Publishers
+            </td>
+            <td>Price:$100</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+        <tr >
+            <td><img src="image/images (3).jpeg" alt="photo"></td>
+
+            <td >Name:Java<br>
+                Author:Morris John <br>
+                Publisher:Frankley Publishers
+            </td>
+            <td >Price:$75</td>
+            <td ><button>Add to Cart</button></td>
+        </tr>
+        <tr >
+            <td><img src="image/images (4).jpeg" alt="photo"></td>
+
+            <td>Name:Electronic Engineering<br>
+                Author:Stanley  <br>
+                Publisher:Hilbert Publisher
+            </td>
+            <td>Price:$200</td>
+            <td ><button>Add to Cart</button></td>
+        </tr>
+
+          
+    </table>
+</body>
+</html>

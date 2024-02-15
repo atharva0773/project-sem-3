@@ -1,0 +1,65 @@
+
+
+body {
+    background-image: url(image/tech-gadgets.jpeg);
+ }
+ h1 { 
+     color:rgba(0, 0, 0, 0.682);
+     font-size: 50px;
+     font-family: marcellus;
+     border: 2px solid rgb(9, 33, 36);
+     padding: 30px;
+    background-color:  rgb(141, 120, 195);
+     
+ }
+ .link:hover { 
+     color: rgb(219, 34, 55);
+ }
+ h1:hover{
+     color: aliceblue;
+ }
+ th:hover,td:hover{
+     color:  aliceblue;
+ }
+ th{
+     color: rgba(0, 0, 0, 0.678);
+     font-size: 36px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .colgroup{
+     width:283px;
+ }
+ td>img {
+     text-decoration-color: rgb(57, 69, 69);
+     width: 100%;
+     height: 300px;
+     object-fit: contain;
+ }
+ table,th,td{
+     border: 3px solid;
+     border-color: rgb(0, 0, 0);
+     /* rgb(49, 117, 146); */
+ }
+ table{
+     position: relative;
+     left: 250px;
+     text-align: left;
+     background-color: rgb(141, 120, 195);
+ }
+ .long{
+     width: 300px;
+ }
+ select{
+ width: 250px;
+ height: 30px;
+ }
+ span{
+    background-color: rgba(0, 0, 0, 0.469);
+    
+    border-color: rgb(255, 255, 255);
+ }
+ .link{
+    color: aliceblue;
+    border: 1px solid black;
+ }
+ 
